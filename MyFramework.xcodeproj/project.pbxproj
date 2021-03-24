@@ -10,6 +10,7 @@
 		930EB3D0260C036D007E07DD /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930EB3C6260C036D007E07DD /* MyFramework.framework */; };
 		930EB3D5260C036D007E07DD /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EB3D4260C036D007E07DD /* MyFrameworkTests.swift */; };
 		930EB3D7260C036D007E07DD /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 930EB3C9260C036D007E07DD /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930EB3E5260C05F2007E07DD /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EB3E4260C05F2007E07DD /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		930EB3CF260C036D007E07DD /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930EB3D4260C036D007E07DD /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		930EB3D6260C036D007E07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930EB3E4260C05F2007E07DD /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				930EB3C9260C036D007E07DD /* MyFramework.h */,
+				930EB3E4260C05F2007E07DD /* TestClass.swift */,
 				930EB3CA260C036D007E07DD /* Info.plist */,
 			);
 			path = MyFramework;
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					930EB3C5260C036D007E07DD = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					930EB3CE260C036D007E07DD = {
 						CreatedOnToolsVersion = 12.4;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930EB3E5260C05F2007E07DD /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		930EB3DB260C036D007E07DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.bartelmess.MyFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +371,7 @@
 		930EB3DC260C036D007E07DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +396,7 @@
 		930EB3DE260C036D007E07DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U4B7L7F7QJ;
@@ -406,6 +415,7 @@
 		930EB3DF260C036D007E07DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U4B7L7F7QJ;

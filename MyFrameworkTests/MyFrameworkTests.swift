@@ -19,7 +19,7 @@ class MyFrameworkTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertTrue(false)
+        XCTAssertTrue(false)
     }
 
     func testPerformanceExample() throws {

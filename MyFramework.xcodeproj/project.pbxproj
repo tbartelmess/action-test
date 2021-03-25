@@ -31,6 +31,7 @@
 		930EB3D4260C036D007E07DD /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		930EB3D6260C036D007E07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930EB3E4260C05F2007E07DD /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		93D0D959260C4DFA004BE7D6 /* MyFramework.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyFramework.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				930EB3D4260C036D007E07DD /* MyFrameworkTests.swift */,
+				93D0D959260C4DFA004BE7D6 /* MyFramework.xctestplan */,
 				930EB3D6260C036D007E07DD /* Info.plist */,
 			);
 			path = MyFrameworkTests;

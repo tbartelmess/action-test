@@ -19,8 +19,7 @@ jobs:
       - name: Run Tests
         run: |
           xcodebuild -scheme "MyFramework"  -resultBundlePath TestResults test
-    - uses: tbartelmess/analyze-xcoderesults-action@master
-      if: always()
-      with:
+      - uses: tbartelmess/analyze-xcoderesults-action@master
+        if: always()
         with:
           results: TestResults.xcresult

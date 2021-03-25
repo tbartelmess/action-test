@@ -19,8 +19,10 @@ class MyFrameworkTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertTrue(false)
+        XCTAssertTrue(false, "Some Failure Text")
     }
+
+    
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

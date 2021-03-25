@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "D948A7F6-8EE1-4AA4-AE19-739F2043AD33",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MyFramework.xcodeproj",
+        "identifier" : "930EB3CE260C036D007E07DD",
+        "name" : "MyFrameworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}
